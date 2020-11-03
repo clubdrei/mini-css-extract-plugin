@@ -110,7 +110,6 @@
     "lint:prettier": "prettier \"{**/*,*}.{js,json,md,yml,css}\" --list-different",
     "postbuild": "es-check es5 dist/hmr/hotModuleReplacement.js",
     "prebuild": "npm run clean",
-    "prepare": "npm run build",
     "pretest": "npm run lint",
     "release": "standard-version",
     "security": "npm audit",
